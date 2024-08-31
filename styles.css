@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: "Inter", sans-serif;
+   background-color: #3d3c3c;
+   color: #fff;
+}
+
+/* Header */
+.cabecalho {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-bottom: 3px solid #ccc;
+   padding: 10px;
+}
+
+#naruto-logo img {
+   margin: 5px;
+   width: 80px;
+}
+
+/* Navbar */
+.nav-container ul {
+   display: flex;
+   justify-content: center;
+   gap: 50px;
+   padding: 20px;
+}
+
+.nav-container li,
+.nav-container a {
+   text-decoration: none;
+   list-style: none;
+   color: orange;
+}
+
+.nav-container a:hover {
+  color: #fff;
+  transition: 0.7s;
+}
+
+.nav-container a:active {
+  color: #fff;
+}
+
