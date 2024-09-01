@@ -81,3 +81,22 @@ body {
    border-radius: 8px;
    color: #fff;
 }
+
+/*Button Search*/
+#search-button {
+   display: flex;
+   align-items: center;
+   margin-left: 12px;
+}
+
+#search-button button {
+   padding: 15px;
+   border-radius: 10px;
+   border: none;
+   cursor: pointer;
+}
+
+#search-button button:hover{
+   background-color: orange;
+   transition: 0.7s;
+}
