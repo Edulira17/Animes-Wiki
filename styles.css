@@ -100,3 +100,30 @@ body {
    background-color: orange;
    transition: 0.7s;
 }
+
+/* Title Destaques */
+.title-destaque {
+   padding: 30px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   color: orange;
+   background-color: #e2dddd;
+}
+
+/* Container Animes */
+
+.animes {
+   display: flex;
+   flex-direction: column;
+   margin: 35px;
+   padding: 20px;
+}
+
+
+/* Sinopses Animes & Imagens */
+
+.sinopse-animes {
+   display: flex;
+   align-items: center;
+}
+
