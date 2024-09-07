@@ -130,11 +130,17 @@ body {
 
 .description-animes {
    margin-left: 40px;
-   max-width: 50%;
+   max-width: 60%;
 }
 
 .title-animes {
-   margin-bottom: 50px;
+   margin-bottom: 20px;
+   color: orange;
+}
+
+.sinopse {
+   margin-bottom: 8px;
+   color: orange;
 }
 
 
