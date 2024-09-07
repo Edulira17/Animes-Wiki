@@ -1,7 +1,8 @@
 .container-manga {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
-  flex-wrap: wrap;
 }
 
 #title-description-mangas {
@@ -23,25 +24,26 @@
 
 
 /* Mangá Section */
+#section-mangas {
+  display: flex;
+  justify-content: center;
+  
+}
 
 .manga-description {
   display: flex;
-  flex-direction: column; 
-  align-items: center; 
-  max-width: 70%;
-}
-
-.manga-description h1 {
-  margin-bottom: 10px; 
+  justify-content: center;
+  align-items: center;
+  max-width: 60%;
+  margin: 30px 30px;
 }
 
 .manga-description img {
-  margin-bottom: 20px; 
+  width: 200px;
 }
 
-.manga-description span {
-  text-align: center;
-}
+
+
 
 
 
