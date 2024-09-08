@@ -50,6 +50,7 @@
 }
 
 .manga-description img {
+    object-fit: cover;
     width: 200px;
 }
 
@@ -59,12 +60,13 @@
 }
 
 .sinopse-mangas h1 {
-    margin-bottom: 30px;
+    margin-bottom: 28px;
     font-size: 36px;
     font-family: "Times New Roman", Times, serif;
 }
 
 .sinopse-mangas p {
+    max-width: 50%;
     font-weight: 200;
     font-size: 11px;
 }
@@ -79,6 +81,10 @@
   border-radius: 10px;
 
   background-color: #363434;
+}
+
+#stars-avaliations {
+    margin-top: 50px;
 }
 
 #stars-avaliations:hover {
