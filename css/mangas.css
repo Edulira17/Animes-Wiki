@@ -45,6 +45,10 @@
     border-radius: 10px;
 }
 
+.manga-description span {
+  width: 400px;
+}
+
 .manga-description img {
     width: 200px;
 }
@@ -57,5 +61,37 @@
 .sinopse-mangas h1 {
     margin-bottom: 30px;
     font-size: 36px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.sinopse-mangas p {
+    font-weight: 200;
+    font-size: 11px;
+}
+
+/* star avaliation */
+#stars-avaliations {  
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  margin: 20px 0;
+  max-width: min-content;
+  border-radius: 10px;
+
+  background-color: #363434;
+}
+
+#stars-avaliations:hover {
+  background-color: #F4A460;
+  transition: 0.4s;
+}
+
+#stars-avaliations p {
+  margin-left: 6px;
+  font-weight: 900;
+}
+
+
+#stars-avaliations img {
+  width: 20px;
 }
