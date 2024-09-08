@@ -1,53 +1,61 @@
 .container-manga {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 #title-description-mangas {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 25px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 10px;
 }
 
 #title-description-mangas img {
-  width: 50px;
-  margin: 10px;
+    width: 50px;
+    margin: 10px;
 }
 
 #title-description-mangas h1 {
-  font-weight: bold;
-  font-size: 30px;
+    font-weight: bold;
+    font-size: 30px;
 }
-
 
 /* Mangá Section */
 #section-mangas {
-  display: flex;
-  justify-content: center;
-  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 80%;
+
+    margin: 20px auto;
 }
 
 .manga-description {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 60%;
-  margin: 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    margin: 30px 30px;
+
+    background-color: #4f4f4f;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .manga-description img {
-  width: 200px;
+    width: 200px;
 }
 
+.sinopse-mangas {
+    margin: auto 25px;
+    padding: 15px;
+}
 
-
-
-
-
-
-
-
-
+.sinopse-mangas h1 {
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+}
