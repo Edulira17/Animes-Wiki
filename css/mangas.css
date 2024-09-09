@@ -41,7 +41,6 @@
     background-color: #7c7c7c;
     border-radius: 10px;
     border: 3px double orange;
-
 }
 
 .manga-card img {
@@ -56,8 +55,31 @@
 }
 
 .description-text h1 {
+    font-size: 2rem;
+    font-weight: 900;
     margin-bottom: 20px;
 }
 
-/* star avaliation */
+.description-text p {
+    font-size: clamp(0.9rem, 0.6rem, 2vw);
+    line-height: 1.2;
+}
+
+/* Responsive Area */
+
+/* Mobile responsive */
+@media(max-width: 800px ) and (min-width: 350px) {
+    #section-mangas {
+        margin: 15px;
+    }
+}
+
+/* Text */
+@media(min-width: 400px) and (max-width: 493px) {
+    .description-text p {
+        font-size: 0.6rem;
+    }
+}
+
+
 
