@@ -5,19 +5,20 @@
     flex-direction: column;
 }
 
-#title-description-mangas {
+/* Title Rank */
+#title-rank {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 25px 10px;
 }
 
-#title-description-mangas img {
+#title-rank img {
     width: 50px;
     margin: 10px;
 }
 
-#title-description-mangas h1 {
+#title-rank h1 {
     font-weight: bold;
     font-size: 30px;
 }
@@ -25,79 +26,38 @@
 /* Mangá Section */
 #section-mangas {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    max-width: 80%;
-
-    margin: 20px auto;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-.manga-description {
+.manga-card {
     display: flex;
-    justify-content: center;
     align-items: center;
-    max-width: 80%;
-    margin: 30px 30px;
+    margin: 30px 0;
+    padding: 40px;
+    max-width: 100%;
 
-    background-color: #4f4f4f;
-    padding: 20px;
+    background-color: #7c7c7c;
     border-radius: 10px;
+    border: 3px double orange;
+
 }
 
-.manga-description span {
-  width: 400px;
+.manga-card img {
+    margin-right: 20px;
+    max-width: 100%;
 }
 
-.manga-description img {
-    object-fit: cover;
-    width: 200px;
-}
-
-.sinopse-mangas {
-    margin: auto 25px;
-    padding: 15px;
-}
-
-.sinopse-mangas h1 {
-    margin-bottom: 28px;
-    font-size: 36px;
-    font-family: "Times New Roman", Times, serif;
-}
-
-.sinopse-mangas p {
+.description-text {
+    display: block;
+    height:250px;
     max-width: 50%;
-    font-weight: 200;
-    font-size: 11px;
+}
+
+.description-text h1 {
+    margin-bottom: 20px;
 }
 
 /* star avaliation */
-#stars-avaliations {  
-  display: flex;
-  align-items: center;
-  padding: 8px;
-  margin: 20px 0;
-  max-width: min-content;
-  border-radius: 10px;
 
-  background-color: #363434;
-}
-
-#stars-avaliations {
-    margin-top: 50px;
-}
-
-#stars-avaliations:hover {
-  background-color: #F4A460;
-  transition: 0.4s;
-}
-
-#stars-avaliations p {
-  margin-left: 6px;
-  font-weight: 900;
-}
-
-
-#stars-avaliations img {
-  width: 20px;
-}
