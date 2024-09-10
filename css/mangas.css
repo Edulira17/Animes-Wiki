@@ -1,85 +1,82 @@
 .container-manga {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 /* Title Rank */
 #title-rank {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 25px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 10px;
 }
 
 #title-rank img {
-    width: 50px;
-    margin: 10px;
+  width: 50px;
+  margin: 10px;
 }
 
 #title-rank h1 {
-    font-weight: bold;
-    font-size: 30px;
+  font-weight: bold;
+  font-size: 30px;
 }
 
 /* Mangá Section */
 #section-mangas {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 800px;
-    margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.manga-card {
-    display: flex;
-    align-items: center;
-    margin: 30px 0;
-    padding: 40px;
-    max-width: 100%;
 
-    background-color: #7c7c7c;
-    border-radius: 10px;
-    border: 3px double orange;
+
+.manga-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #807e7e;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: 20px 25px;
 }
 
 .manga-card img {
-    margin-right: 20px;
-    max-width: 100%;
-}
-
-.description-text {
-    display: block;
-    height:250px;
-    max-width: 50%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
 }
 
 .description-text h1 {
-    font-size: 2rem;
-    font-weight: 900;
-    margin-bottom: 20px;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 10px 0 20px 0;
 }
 
+
 .description-text p {
-    font-size: clamp(0.9rem, 0.6rem, 2vw);
-    line-height: 1.2;
+  font-size: 0.9rem;
+  text-align: justify;
+  
 }
 
 /* Responsive Area */
 
-/* Mobile responsive */
-@media(max-width: 800px ) and (min-width: 350px) {
-    #section-mangas {
-        margin: 15px;
-    }
+@media (max-width: 375px) {
+  .manga-card {
+    padding: 10px;
+    max-width: 100%;
+  }
+
+  .description-text h1 {
+    font-size: 1.2rem;
+  }
+
+  .description-text p {
+    font-size: 0.9rem;
+  }
 }
-
-/* Text */
-@media(min-width: 400px) and (max-width: 493px) {
-    .description-text p {
-        font-size: 0.6rem;
-    }
-}
-
-
-
