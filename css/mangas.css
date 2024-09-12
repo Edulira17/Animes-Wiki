@@ -56,13 +56,13 @@
   font-weight: 900;
   text-align: center;
   margin: 10px 0 5px 0;
+  color: rgb(245, 185, 73);
 }
 
 
 .description-text p {
   font-size: 0.6rem;
   text-align: justify;
-  
 }
 
 /* Responsive Area */
@@ -81,3 +81,4 @@
     font-size: 0.9rem;
   }
 }
+

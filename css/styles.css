@@ -1,149 +1,143 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
 
 * {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-   word-wrap: break-word;
-   overflow-wrap: break-word;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 body {
-   font-family: "Inter", sans-serif;
-   background-color: #3d3c3c;
-   color: #fff;
+    font-family: "Inter", sans-serif;
+    background-color: #3d3c3c;
+    color: #fff;
 }
 
 /* Header */
 .cabecalho {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   border-bottom: 3px solid #ccc;
-   padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid #ccc;
+    padding: 10px;
 }
 
 #naruto-logo img {
-   margin: 5px;
-   width: 80px;
+    margin: 5px;
+    width: 80px;
 }
 
 /* Navbar */
 .nav-container ul {
-   display: flex;
-   justify-content: center;
-   gap: 50px;
-   padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
 }
 
 .nav-container li,
 .nav-container a {
-   text-decoration: none;
-   list-style: none;
-   color: orange;
+    text-decoration: none;
+    list-style: none;
+    color: orange;
 }
 
 .nav-container a:hover {
-  color: #fff;
-  transition: 0.7s;
+    color: #fff;
+    transition: 0.7s;
 }
 
 .nav-container a:active {
-  color: #fff;
+    color: #fff;
 }
-
 
 /*Container Principal*/
 .main-container {
-   display: flex;
-   justify-content: center;
-   max-width: 100%;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
 }
-
 
 /*Input de buscar*/
-.search-area  {
-   display: flex;
-   justify-content: center;
-   padding: 20px;
+.search-area {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
 
-
 .search-area label {
-   margin: 10px;
-   padding: 5px;
-   font-weight: bold;
-   color: orange;
+    margin: 10px;
+    padding: 5px;
+    font-weight: bold;
+    color: orange;
 }
 
 .search-area input {
-   width: 30%;
-   height: 50px;
-   border: none;
-   border-radius: 8px;
-   color: #fff;
+    width: 30%;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
 }
 
 /*Button Search*/
 #search-button {
-   display: flex;
-   align-items: center;
-   margin-left: 12px;
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
 }
 
 #search-button button {
-   padding: 15px;
-   border-radius: 10px;
-   border: none;
-   cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
 }
 
-#search-button button:hover{
-   background-color: orange;
-   transition: 0.7s;
+#search-button button:hover {
+    background-color: orange;
+    transition: 0.7s;
 }
 
 /* Title Destaques */
 .title-destaque {
-   padding: 30px;
-   margin-top: 30px;
-   margin-bottom: 30px;
-   color: rgb(255, 166, 0);
-   background-color: #fff;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgb(255, 166, 0);
+    background-color: #fff;
 }
 
 /* Container Animes */
 
 #animes {
-   display: flex;
-   flex-direction: column;
-   margin: 35px;
-   padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 35px;
+    padding: 20px;
 }
-
 
 /* Sinopses Animes & Imagens */
 
 .sinopse-animes {
-   display: flex;
-   align-items: center;
-   margin: 50px 20px ;
+    display: flex;
+    align-items: center;
+    margin: 50px 20px;
 }
 
 .description-animes {
-   margin-left: 40px;
-   max-width: 60%;
+    margin-left: 40px;
+    max-width: 60%;
 }
 
 .title-animes {
-   margin-bottom: 20px;
-   color: orange;
+    margin-bottom: 20px;
+    color: orange;
 }
 
 .sinopse {
-   margin-bottom: 8px;
-   color: orange;
+    margin-bottom: 8px;
+    color: orange;
 }
-
-
 
