@@ -43,6 +43,13 @@
   border-radius: 8px;
   max-width: 400px;
   margin: 20px 25px;
+
+  transition: transform 0.7s ease;
+}
+
+.manga-card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .manga-card img {
