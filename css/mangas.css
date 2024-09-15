@@ -70,8 +70,32 @@
 .description-text p {
   font-size: 0.6rem;
   text-align: justify;
+  width: 80%;
+  margin: 0 auto;
 }
 
+/* Star avaliation */
+#star-avaliation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px auto 15px auto;
+
+  padding: 8px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+#star-avaliation img {
+  max-width: 100%;
+  width: 20px;
+}
+
+#star-avaliation span {
+  margin-left: 5px;
+  font-size: .7rem;
+  color: orange;
+}
 
 /* Responsive Area */
 

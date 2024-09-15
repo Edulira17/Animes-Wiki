@@ -4,8 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
 }
 
 body {
@@ -52,13 +50,6 @@ body {
     color: #fff;
 }
 
-/*Container Principal*/
-.main-container {
-    display: flex;
-    justify-content: center;
-    max-width: 100%;
-}
-
 /*Input de buscar*/
 .search-area {
     display: flex;
@@ -78,7 +69,11 @@ body {
     height: 50px;
     border: none;
     border-radius: 8px;
-    color: #fff;
+}
+
+.search-area input::placeholder {
+    text-align: center;
+    color: black;
 }
 
 /*Button Search*/
@@ -100,44 +95,17 @@ body {
     transition: 0.7s;
 }
 
-/* Title Destaques */
-.title-destaque {
-    padding: 30px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    color: rgb(255, 166, 0);
-    background-color: #fff;
-}
-
-/* Container Animes */
-
-#animes {
+/* Main content */
+.main-container {
     display: flex;
     flex-direction: column;
-    margin: 35px;
-    padding: 20px;
+    justify-content: center;
+
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
-/* Sinopses Animes & Imagens */
-
-.sinopse-animes {
+.main-container article {
     display: flex;
-    align-items: center;
-    margin: 50px 20px;
+    margin: 30px 0 20px 0;
 }
-
-.description-animes {
-    margin-left: 40px;
-    max-width: 60%;
-}
-
-.title-animes {
-    margin-bottom: 20px;
-    color: orange;
-}
-
-.sinopse {
-    margin-bottom: 8px;
-    color: orange;
-}
-
