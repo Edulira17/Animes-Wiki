@@ -39,12 +39,13 @@
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  background-color: #807e7e;
+  background-color: #ffffffc4;
   border-radius: 8px;
   max-width: 400px;
   margin: 20px 25px;
 
   transition: transform 0.7s ease;
+  border: 2px solid #797979;
 }
 
 .manga-card:hover {
@@ -63,38 +64,39 @@
   font-weight: 900;
   text-align: center;
   margin: 10px 0 5px 0;
-  color: rgb(245, 185, 73);
+  color: rgb(236, 157, 9);
 }
 
 
 .description-text p {
   font-size: 0.6rem;
+  font-weight: 500;
   text-align: justify;
   width: 80%;
   margin: 0 auto;
+  color: #000;
 }
 
-/* Star avaliation */
-#star-avaliation {
+/* Sold mangas */
+#sold-mangas {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 15px auto 15px auto;
 
-  padding: 8px;
-  background-color: #fff;
   border-radius: 10px;
 }
 
-#star-avaliation img {
+#sold-mangas img {
   max-width: 100%;
-  width: 20px;
+  width: 30px;
 }
 
-#star-avaliation span {
+#sold-mangas span {
   margin-left: 5px;
   font-size: .7rem;
-  color: orange;
+  font-weight: 600;
+  color: black;
 }
 
 /* Responsive Area */

@@ -1,132 +1,139 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Inter", sans-serif;
-    background-color: #3d3c3c;
-    color: #fff;
+  font-family: "Inter", sans-serif;
+  background-image: linear-gradient(
+    to bottom,
+    #cf732a,
+    #d88225,
+    #e09120,
+    #e6a119,
+    #ebb212
+  );
+  color: #fff;
 }
 
 /* Header */
 .cabecalho {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 3px solid #ccc;
-    padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px solid #ccc;
+  padding: 10px;
 }
 
-#naruto-logo img {
-    margin: 5px;
-    width: 80px;
+#ninja-logo img {
+  margin: 5px 10px;
+  width: 50px;
 }
 
 /* Navbar */
 .nav-container ul {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px;
+  position: sticky;
 }
 
-.nav-container li,
+.nav-container li {
+  list-style: none;
+}
+
 .nav-container a {
-    text-decoration: none;
-    list-style: none;
-    color: orange;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s ease;
+  color: #fff;
 }
 
 .nav-container a:hover {
-    color: #fff;
-    transition: 0.7s;
-}
-
-.nav-container a:active {
-    color: #fff;
+  border-bottom: 2px solid white;
 }
 
 /*Input de buscar*/
 .search-area {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
 
 .search-area label {
-    margin: 10px;
-    padding: 5px;
-    font-weight: bold;
-    color: orange;
+  margin: 10px;
+  padding: 5px;
+  font-weight: bold;
+  color: orange;
 }
 
 .search-area input {
-    width: 30%;
-    height: 50px;
-    border: none;
-    border-radius: 8px;
+  width: 30%;
+  height: 50px;
+  border: none;
+  border-radius: 8px;
 }
 
 .search-area input::placeholder {
-    text-align: center;
-    color: black;
+  text-align: center;
+  color: black;
 }
 
 /*Button Search*/
 #search-button {
-    display: flex;
-    align-items: center;
-    margin-left: 12px;
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
 }
 
 #search-button button {
-    padding: 15px;
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
 }
 
 #search-button button:hover {
-    background-color: orange;
-    transition: 0.7s;
+  background-color: orange;
+  transition: 0.7s;
 }
 
 /* Main title */
 .main-title {
-    margin: 0 auto;
-    padding: 15px;
+  margin: 0 auto;
+  padding: 15px;
 }
-
 
 /* Main content */
 .main-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
-    margin: 0 auto;
-    max-width: 100%;
+  margin: 0 auto;
+  max-width: 100%;
 }
 
 .main-container article {
-    display: flex;
-    margin: 30px 0 20px 0;
+  display: flex;
+  margin: 30px 0 20px 0;
+  background-color: #fff;
+  color: black;
 }
 
 .content-animes {
-    display: flex;
-    margin: 0 auto;
+  display: flex;
+  margin: 0 auto;
 }
 
 .article-anime {
-    max-width: 900px;
+  max-width: 900px;
 }
 
 .article-anime img {
-    width: 12vw;
+  width: 12vw;
 }
-
