@@ -15,12 +15,16 @@
 
 #title-rank img {
   width: 50px;
-  margin: 10px;
+  margin-right: 20px;
 }
 
 #title-rank h1 {
-  font-weight: bold;
-  font-size: 30px;
+  font-size: 2.5rem;
+  background: linear-gradient(to right, #add8e6, #87cefa);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 
 /* Mangá Section */
@@ -31,8 +35,6 @@
   max-width: 1200px;
   margin: 0 auto;
 }
-
-
 
 .manga-card {
   display: flex;
@@ -67,7 +69,6 @@
   color: rgb(236, 157, 9);
 }
 
-
 .description-text p {
   font-size: 0.6rem;
   font-weight: 500;
@@ -94,7 +95,7 @@
 
 #sold-mangas span {
   margin-left: 5px;
-  font-size: .7rem;
+  font-size: 0.7rem;
   font-weight: 600;
   color: black;
 }
@@ -115,4 +116,3 @@
     font-size: 0.9rem;
   }
 }
-

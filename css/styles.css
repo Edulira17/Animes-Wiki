@@ -11,7 +11,7 @@ body {
   background: rgb(200, 206, 255);
   background: linear-gradient(
     0deg,
-    rgba(200, 206, 255, 1) 0%,
+    rgb(171, 180, 248) 0%,
     rgba(17, 117, 235, 1) 100%
   );
   color: #fff;
@@ -109,7 +109,7 @@ body {
 .main-title h1 {
   font-size: 2.5rem;
   text-align: center;
-  background-image: url(/imagens/gifs/gif_title-ezgif.com-loop-count.gif);
+  background: linear-gradient(to right, #add8e6, #87cefa);
   background-clip: text;
   -webkit-background-clip: text; 
   color: transparent; 
@@ -137,6 +137,7 @@ body {
 
 .content-animes {
   display: flex;
+  flex-direction: column;
   margin: 0 auto;
 }
 
