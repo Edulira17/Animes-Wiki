@@ -91,13 +91,13 @@ body {
 #search-button button {
   padding: 15px;
   border-radius: 10px;
+  transition: transform 0.7s ease;
   border: none;
   cursor: pointer;
 }
 
 #search-button button:hover {
-  background-color: orange;
-  transition: 0.7s;
+  transform: scale(1.1);
 }
 
 /* Main title */
