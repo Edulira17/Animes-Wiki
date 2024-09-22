@@ -1,136 +1,177 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Bootstrap Icons -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+        />
+        <!-- Link CSS -->
+        <link rel="stylesheet" href="/css/styles.css" />
+        <title>Wiki Animes</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
-    <!-- Link CSS -->
-    <link rel="stylesheet" href="/css/styles.css" />
-    <title>Wiki Animes</title>
-</head>
+    <body>
+        <!--Cabeçalho-->
+        <header class="cabecalho">
+            <div id="ninja-logo">
+                <img src="/imagens/ninja.png" alt="Logo Wiki Animes" />
+            </div>
+            <h1>Wiki Animes</h1>
+        </header>
+        <!--Barra de navegação-->
+        <nav class="nav-container">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="/mangas.html">Mangás</a></li>
+                <li><a href="">Noticías</a></li>
+            </ul>
+        </nav>
 
-<body>
-    <!--Cabeçalho-->
-    <header class="cabecalho">
-        <div id="ninja-logo">
-            <img src="/imagens/ninja.png" alt="Logo Wiki Animes" />
+        <!--Área de Pesquisa-->
+        <div class="search-area">
+            <input
+                type="text"
+                placeholder="Busque por seu anime favorito aqui..."
+            />
+            <div id="search-button">
+                <button class="search-button">
+                    <i class="bi bi-search icon-search"></i>
+                </button>
+            </div>
         </div>
-        <h1>Wiki Animes</h1>
-    </header>
-    <!--Barra de navegação-->
-    <nav class="nav-container">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="/mangas.html">Mangás</a></li>
-            <li><a href="">Noticías</a></li>
-        </ul>
-    </nav>
 
-    <!--Área de Pesquisa-->
-    <div class="search-area">
-        <input type="text" placeholder="Busque por seu anime favorito aqui..." />
-        <div id="search-button">
-            <button class="search-button">
-                <i class="bi bi-search icon-search"></i>
-            </button>
-        </div>
-    </div>
+        <!-- Contéudo Principal -->
+        <main class="main-container">
+            <section class="main-title">
+                <h1>Animes mais vistos de 2024</h1>
+            </section>
 
-    <!-- Contéudo Principal -->
-    <main class="main-container">
-        <section class="main-title">
-            <h1>Animes mais vistos de 2024</h1>
-        </section>
-
-        <!-- Content Animes -->
-        <section class="content-animes">
-            <article class="article-anime">
-                <img src="/imagens/mushoku-tensei_capa.png" alt="">
-                <div class="description-anime">
-                    <h1>Mushoku Tensei season 2</h1>
-                    <span>
-                        A história segue Rudeus Greyrat, um homem reencarnado em um mundo de fantasia, buscando redenção
-                        por sua vida passada sem propósito. Nesta nova temporada, ele continua sua jornada em busca de
-                        poder, conhecimento, e um propósito mais profundo, enfrentando perigos e fazendo aliados
-                        poderosos ao longo do caminho.
-                    </span>
-                    <div class="avaliation-container">
-                        <img src="/imagens/star.png" alt="Estrelas de avaliação">
-                        <span>9.9</span>
+            <!-- Content Animes -->
+            <section class="content-animes">
+                <article class="article-anime">
+                    <img src="/imagens/mushoku-tensei_capa.png" alt="" />
+                    <div class="description-anime">
+                        <h1>Mushoku Tensei season 2</h1>
+                        <span>
+                            A história segue Rudeus Greyrat, um homem
+                            reencarnado em um mundo de fantasia, buscando
+                            redenção por sua vida passada sem propósito. Nesta
+                            nova temporada, ele continua sua jornada em busca de
+                            poder, conhecimento, e um propósito mais profundo,
+                            enfrentando perigos e fazendo aliados poderosos ao
+                            longo do caminho.
+                        </span>
+                        <div class="avaliation-container">
+                            <img
+                                src="/imagens/star.png"
+                                alt="Estrelas de avaliação"
+                            />
+                            <span>9.9</span>
+                        </div>
                     </div>
-                </div>
-            </article>
+                </article>
 
-            <article class="article-anime">
-                <img src="/imagens/anime-kaijuN8.png" alt="">
-                <div class="description-anime">
-                    <h1>Kaiju No. 8</h1>
-                    <span>
-                        Neste anime de ação e ficção científica, Kafka Hibino, um membro da Força de Defesa que luta
-                        contra monstros gigantes chamados Kaiju, adquire poderes de Kaiju após um acidente. Agora ele
-                        deve equilibrar sua vida como humano e monstro, enquanto batalha para proteger a humanidade de
-                        ameaças apocalípticas​
-                    </span>
-                    <div class="avaliation-container">
-                        <img src="/imagens/star.png" alt="Estrelas de avaliação">
-                        <span>9.9</span>
+                <article class="article-anime">
+                    <img src="/imagens/anime-kaijuN8.png" alt="" />
+                    <div class="description-anime">
+                        <h1>Kaiju No. 8</h1>
+                        <span>
+                            Neste anime de ação e ficção científica, Kafka
+                            Hibino, um membro da Força de Defesa que luta contra
+                            monstros gigantes chamados Kaiju, adquire poderes de
+                            Kaiju após um acidente. Agora ele deve equilibrar
+                            sua vida como humano e monstro, enquanto batalha
+                            para proteger a humanidade de ameaças apocalípticas​
+                        </span>
+                        <div class="avaliation-container">
+                            <img
+                                src="/imagens/star.png"
+                                alt="Estrelas de avaliação"
+                            />
+                            <span>9.9</span>
+                        </div>
                     </div>
-                </div>
-            </article>
+                </article>
 
-            <article class="article-anime">
-                <img src="/imagens/bleach_capa_anime.png" alt="">
-                <div class="description-anime">
-                    <h1>Bleach: Thousand-Year Blood War - The Conflict (Parte 3)</h1>
-                    <span>
-                        Neste anime de ação e ficção científica, Kafka Hibino, um membro da Força de Defesa que luta
-                        contra monstros gigantes chamados Kaiju, adquire poderes de Kaiju após um acidente. Agora ele
-                        deve equilibrar sua vida como humano e monstro, enquanto batalha para proteger a humanidade de
-                        ameaças apocalípticas.
-                    </span>
-                    <div class="avaliation-container">
-                        <img src="/imagens/star.png" alt="Estrelas de avaliação">
-                        <span>9.9</span>
+                <article class="article-anime">
+                    <img src="/imagens/bleach_capa_anime.png" alt="" />
+                    <div class="description-anime">
+                        <h1>
+                            Bleach: Thousand-Year Blood War - The Conflict
+                            (Parte 3)
+                        </h1>
+                        <span>
+                            Neste anime de ação e ficção científica, Kafka
+                            Hibino, um membro da Força de Defesa que luta contra
+                            monstros gigantes chamados Kaiju, adquire poderes de
+                            Kaiju após um acidente. Agora ele deve equilibrar
+                            sua vida como humano e monstro, enquanto batalha
+                            para proteger a humanidade de ameaças apocalípticas.
+                        </span>
+                        <div class="avaliation-container">
+                            <img
+                                src="/imagens/star.png"
+                                alt="Estrelas de avaliação"
+                            />
+                            <span>9.9</span>
+                        </div>
                     </div>
-                </div>
-            </article>
+                </article>
 
-            <article class="article-anime">
-                <img src="/imagens/slime_capa_anime.png" alt="">
-                <div class="description-anime">
-                    <h1>That Time I Got Reincarnated as a Slime (Temporada 3)</h1>
-                    <span>
-                        Rimuru Tempest, um ex-humano que renasceu como um slime, continua sua aventura liderando sua
-                        nação de monstros. Na terceira temporada, ele enfrenta novos inimigos e confrontos decisivos,
-                        com foco em sua batalha contra Hinata Sakaguchi, uma espadachim lendária​
-                    </span>
-                    <div class="avaliation-container">
-                        <img src="/imagens/star.png" alt="Estrelas de avaliação">
-                        <span>9.9</span>
+                <article class="article-anime">
+                    <img src="/imagens/slime_capa_anime.png" alt="" />
+                    <div class="description-anime">
+                        <h1>
+                            That Time I Got Reincarnated as a Slime (Temporada
+                            3)
+                        </h1>
+                        <span>
+                            Rimuru Tempest, um ex-humano que renasceu como um
+                            slime, continua sua aventura liderando sua nação de
+                            monstros. Na terceira temporada, ele enfrenta novos
+                            inimigos e confrontos decisivos, com foco em sua
+                            batalha contra Hinata Sakaguchi, uma espadachim
+                            lendária​
+                        </span>
+                        <div class="avaliation-container">
+                            <img
+                                src="/imagens/star.png"
+                                alt="Estrelas de avaliação"
+                            />
+                            <span>9.9</span>
+                        </div>
                     </div>
-                </div>
-            </article>
+                </article>
 
-            <article class="article-anime">
-                <img src="/imagens/sound_euphonium_capa_anime.png" alt="">
-                <div class="description-anime">
-                    <h1>Sound! Euphonium (Temporada 3)</h1>
-                    <span>
-                        Acompanhamos Kumiko Oumae, uma jovem musicista, em seu terceiro ano de ensino médio enquanto ela
-                        lida com as pressões de liderar a banda de concertos de sua escola. A história explora os
-                        desafios emocionais e as vitórias pessoais no ambiente competitivo da música​
-                    </span>
-                    <div class="avaliation-container">
-                        <img src="/imagens/star.png" alt="Estrelas de avaliação">
-                        <span>9.9</span>
+                <article class="article-anime">
+                    <img src="/imagens/sound_euphonium_capa_anime.png" alt="" />
+                    <div class="description-anime">
+                        <h1>Sound! Euphonium (Temporada 3)</h1>
+                        <span>
+                            Acompanhamos Kumiko Oumae, uma jovem musicista, em
+                            seu terceiro ano de ensino médio enquanto ela lida
+                            com as pressões de liderar a banda de concertos de
+                            sua escola. A história explora os desafios
+                            emocionais e as vitórias pessoais no ambiente
+                            competitivo da música​
+                        </span>
+                        <div class="avaliation-container">
+                            <img
+                                src="/imagens/star.png"
+                                alt="Estrelas de avaliação"
+                            />
+                            <span>9.9</span>
+                        </div>
                     </div>
-                </div>
-            </article>
-
-        </section>
-    </main>
-</body>
-
+                </article>
+            </section>
+        </main>
+        <footer class="footer"> 
+            <!-- ADD ICONS DAS REDES SOCIAIS: GITHUB, LINKEDIN, EMAIL -->
+            Desenvolvido por Eduardo lira
+        </footer>
+    </body>
 </html>
