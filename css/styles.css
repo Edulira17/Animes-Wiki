@@ -1,203 +1,257 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --fonte-cards-animes: 'Arial', sans-serif;
 }
 
 body {
-    font-family: "Inter", sans-serif;
-    background: rgb(200, 206, 255);
-    background: linear-gradient(
-        0deg,
-        rgb(171, 180, 248) 0%,
-        rgba(17, 117, 235, 1) 100%
-    );
-    color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  background: rgb(200, 206, 255);
+  background: linear-gradient(
+    0deg,
+    rgb(171, 180, 248) 0%,
+    rgba(17, 117, 235, 1) 100%
+  );
+  color: #fff;
 }
 
 /* Header */
 .cabecalho {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 3px solid #ccc;
-    padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px solid #ccc;
+  padding: 10px;
 }
 
 #ninja-logo img {
-    margin: 5px 10px;
-    width: 50px;
+  margin: 5px 10px;
+  width: 50px;
 }
 
 /* Navbar */
 .nav-container ul {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    padding: 20px;
-    position: sticky;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px;
+  position: sticky;
 }
 
 .nav-container li {
-    list-style: none;
+  list-style: none;
 }
 
 .nav-container a {
-    text-decoration: none;
-    border-bottom: 2px solid transparent;
-    transition: border-bottom 0.3s ease;
-    color: #fff;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s ease;
+  color: #fff;
 }
 
 .nav-container a:hover {
-    border-bottom: 2px solid white;
+  border-bottom: 2px solid white;
 }
 
 /*Input de buscar*/
 .search-area {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
 
 .search-area input {
-    width: 30%;
-    border: none;
-    outline: none;
-    text-align: center;
-    border-radius: 8px;
-    caret-color: transparent;  
-    transition: caret-color 0.3s ease; 
+  width: 30%;
+  border: none;
+  outline: none;
+  text-align: center;
+  border-radius: 8px;
+  caret-color: transparent;
+  transition: caret-color 0.3s ease;
 }
 
 .search-area input::placeholder {
-    color: #888; 
-    transition: opacity 0.3s ease; 
+  color: #888;
+  transition: opacity 0.3s ease;
 }
 
 .search-area input:focus {
-    caret-color: auto; 
+  caret-color: auto;
 }
 
 .search-area input:focus::placeholder {
-    opacity: 0; 
+  opacity: 0;
 }
 
 /*Button Search*/
 #search-button {
-    display: flex;
-    align-items: center;
-    margin-left: 12px;
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
 }
 
 #search-button button {
-    padding: 15px;
-    border-radius: 10px;
-    transition: transform 0.7s ease;
-    border: none;
-    cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  transition: transform 0.7s ease;
+  border: none;
+  cursor: pointer;
 }
 
 #search-button button:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 /* Main title */
 .main-title {
-    margin: 0 auto;
-    padding: 15px;
+  margin: 0 auto;
+  padding: 15px;
 }
 
 .main-title h1 {
-    font-size: 2.5rem;
-    text-align: center;
-    background: linear-gradient(to right, #add8e6, #87cefa);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    -webkit-text-fill-color: transparent;
-    margin: 20px 0;
+  font-size: 2.5rem;
+  text-align: center;
+  background: linear-gradient(to right, #add8e6, #87cefa);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  margin: 20px 0;
 }
 
 /* Main content */
 .main-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
-    margin: 0 auto;
-    max-width: 100%;
+  margin: 0 auto;
+  max-width: 100%;
 }
 
 .main-container article {
-    display: flex;
-    margin: 30px 0 20px 0;
-    background-color: #ffffff8f;
-    color: black;
-    border-radius: 24px;
+  display: flex;
+  margin: 30px 0 20px 0;
+  background-color: #ffffff8f;
+  color: black;
+  border-radius: 24px;
 }
 
 .content-animes {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
 }
 
 .article-anime {
-    display: flex;
-    align-items: center;
-    max-width: 900px;
-    padding: 30px;
+  display: flex;
+  align-items: center;
+  max-width: 900px;
+  padding: 30px;
+  font-family: var(--fonte-cards-animes);
 }
 
 .article-anime img {
-    width: 100%;
-    max-width: 200px;
-    height: auto;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
 }
 
 .description-anime {
-    margin: 0 auto;
-    width: 60%;
+  margin: 0 auto;
+  width: 60%;
 }
 
 .description-anime span {
-    font-size: 0.8rem;
-    font-style: italic;
+  font-size: 0.8rem;
+  font-style: italic;
 }
 
 .description-anime h1 {
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
 }
 
 /* section avaliations */
 .avaliation-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 25px;
-    gap: 9px;
-
-    background-color: #fff;
-    border-radius: 10px;
-    border: 1px solid orange;
-    max-width: 20%;
-    padding: 10px;
-    transition: transform 0.3s ease;
-}
-
-.avaliation-container:hover {
-    transform: scale(1.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  padding: 10px;
+  
+  background-color: #fff;
+  gap: 5px;
+  border-radius: 10px;
+  border: 1px solid orange;
+  width: 70px;
 }
 
 .avaliation-container img {
-    width: 20px;
+  width: 20px;
 }
 
 .avaliation-container span {
-    font-weight: 800;
+  font-size: .7rem;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+
+/* Responsive area */
+
+/* Telas menores */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile */
+@media (max-width: 375px) {
+  /* Cards */
+  .content-animes {
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  .article-anime {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .article-anime img {
+    width: 100%;
+    height: auto;
+  
+  }
+
+  .avaliation-container {
+    width: 70px;
+  }
+
+  .avaliation-container img {
+    width: 20px;
+  }
+
+  /* Search area */
+  .search-area input {
+    width: 100%;
+  }
 }
